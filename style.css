@@ -1,0 +1,502 @@
+* {
+ padding: 0;
+ margin: 0;
+ font-family: 'Poppins', sans-serif;
+}
+
+h1{
+   text-align: center;
+   color: #ff6060; 
+
+}
+
+/* Generales*/
+
+
+a {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+
+.AlinearCentro {
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    background-color: #242424;
+    color: white;
+    text-align: center;    
+}
+
+footer div{
+    padding: 1rem;
+}
+
+
+/* HOME */
+
+
+
+
+    
+nav li{
+border-left: solid 1px #ff6060;
+padding-right: 35px;
+padding-left: 3px;
+}
+
+
+/* Fin Menu*/
+
+
+   
+    
+    .ImgHome {
+        height: 60rem;
+        background-image: url(img/homepricipal.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .ImgText{
+        text-align: center;
+        padding:5rem;
+        font-weight: bold;
+        margin: auto;
+    }
+    
+    .ImgText h1{
+        font-size: 65px;
+        margin-top: 22rem;
+        margin-bottom: 2rem;
+    }
+    
+    
+    .ImgText a{
+        color: #2e27b3;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+
+    .ContenedorRayita2{
+        width: auto;
+        height: 1rem;
+        margin-top: 2rem;
+     }
+ 
+     .Rayita2 {
+        margin: auto;
+        margin-top: 1rem;
+        height: 3px;
+        width: 40px;
+        background-color: #ff6060;
+    }
+
+
+    .ContenedorRayita{
+        width: auto;
+        height: 1rem;
+        margin-top: 2rem;
+     }
+ 
+     .Rayita {
+        display: none ;
+        margin: auto;
+        margin-top: 1rem;
+        height: 16px;
+        width: 40px;
+        background-color: #ff6060;
+    }
+ 
+
+    .NotasInicio {
+        text-align: center;
+        height: auto;
+    
+    }
+
+    .NotasInicio h1{
+        color: #2e27b3;
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+    .NotasInicio h3{
+        color: #2e27b3;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: italic;
+        margin-top: 1rem;
+    }
+    
+    .NotasInicio h2{
+        color: #ff6060;
+    }
+    
+    .NotasInicio article{
+
+        width: 20%;
+        height: auto;
+        margin: 10px;
+    
+    }
+    
+    .ArticuloInicio{
+        margin-bottom: 2rem;
+
+    }
+
+
+    .LinkNota{
+    color: #ffbe58;
+    font-size: 18px;
+    }
+
+    a:hover {
+        color: orange; 
+      }
+
+
+
+
+/* FIN HOME manitores*/
+
+
+
+
+
+
+/* SOBRE */
+
+.SobreTexto {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.SobreTexto h1 {
+    color: #2e27b3;
+    font-size: 35px;
+}
+
+
+.SobreTexto h2{
+    color: #ff6060;
+}
+
+
+.SobreTexto h3{
+    color: #2e27b3;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.TablaSobre {
+    width: 70rem;
+    text-align: justify;
+    margin: auto;
+  
+}
+
+.TablaSobre td{
+    padding: 1rem;
+}
+
+.ContenidoSobre {
+    padding: 3rem;
+}
+
+
+
+/* Galería */
+
+.GaleriaTexto {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 60rem;
+    margin: auto    ;
+}
+
+.GaleriaTexto h1 {
+    color: #2e27b3;
+    font-size: 35px;
+}
+
+
+.GaleriaTexto h2{
+    color: #ff6060;
+}
+
+
+.GaleriaTexto h3{
+    color: #2e27b3;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.GaleriaObras{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.ObrasTablero{
+    height: auto;
+    flex-grow: 1;
+    text-align: center;
+    margin: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.GaleriaObras article img{
+    transition: height width 2s;
+}
+
+.GaleriaObras article img:hover{
+    height: 80% ;
+    width: 90%;
+
+}
+
+
+.ObrasTablero h3{
+    color:  #2e27b3 ;
+}
+
+.ObrasTablero a {
+    color: #ff6060 ;
+}
+
+/* Artistias */
+
+.ArtistasTexto {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 60rem;
+    margin: auto    ;
+}
+
+.ArtistasTexto h1 {
+    color: #2e27b3;
+    font-size: 35px;
+}
+
+
+.ArtistasTexto h2{
+    color: #ff6060;
+}
+
+
+.ArtistasTexto h3{
+    color: #2e27b3;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.Video {
+    padding: 6rem;
+    background-color:#fffbe9;
+}
+
+.ArtistasTexto article {
+    padding-bottom: 8rem;
+    padding-top: 3rem;
+}
+
+
+/* Eventos */
+
+.TextoEventos {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.TextoEventos p{
+    color: #2e27b3;
+}
+
+.Mes {
+    color: #2e27b3;
+    padding-left: 2rem;
+    font-size: 30px;
+}
+
+
+.notas {
+  width: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap; }
+
+.nota1 {
+  width: 33.33333%;
+  margin: 15px; 
+ 
+  }
+
+.nota2 {
+  width: 33.33333%;
+  margin: 15px; 
+  
+  }
+
+.nota3 {
+  width: 33.33333%;
+  margin: 15px;
+  border:none; 
+
+  }
+
+.btn-notas{
+  background-color: #2e27b3;
+}
+
+.notauno__fondo {
+  background-color: #ffdfe4; 
+  padding: 1rem;
+  }
+
+
+.notados__fondo {
+  background-color: #fff2f4; 
+  padding: 1rem;
+  }
+
+
+
+.notatres__fondo {
+  background-color: antiquewhite; 
+  }
+
+.notatres__fondo__titulo {
+  color: #ff6060; 
+  }
+
+
+/* Contacto */
+
+
+.ContenidoContacto{
+   
+    margin: auto;
+    margin-bottom: 5rem;
+    width:90rem;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 15px;
+
+    display: grid;
+    grid-template-areas: 
+    "TextoContacto TextoContacto"
+    "ImgContacto ContactoFormulario"
+     ;
+}
+
+
+
+.TextoContacto {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+    grid-area: TextoContacto;
+
+}
+
+
+.TextoContacto h2 {
+    color: #2e27b3 ;
+}
+
+.ImgContacto{
+    grid-area: ImgContacto;
+}
+ 
+.ImgContacto img{
+    height: 40rem;   
+    width: auto;
+}
+
+.ContactoFormulario {
+    background-color: #ffdd61;
+    width: 50rem;
+    height: 40rem;
+    margin: auto;
+    grid-area: ContactoFormulario;
+    
+}
+
+
+.ContactoFormulario h1{
+color: white;
+font-size: 6rem;
+}
+
+.ContactoFormulario div{
+    height: 3px;
+    width: 40px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+.CampoForm{
+    width: 40rem;
+    border-style: none;
+    border-bottom: #ff6060 solid 2px;
+    margin-bottom: 1rem;
+    height: 2rem;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+input::placeholder {
+    color: grey;
+    font-size: 1.2em;
+    padding-left: 2rem;
+  }
+
+textarea::placeholder {
+    color: grey;
+    font-size: 1.2em;
+    padding-left: 2rem;
+}
+
+.BotonForm {
+    padding: 5px 15px 5px 15px;
+    border: none;
+    background-color: white;
+    color: #2e27b3 ;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+
